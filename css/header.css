@@ -1,0 +1,135 @@
+.logo {
+  display: grid;
+  margin: 0 auto;
+  justify-content: center;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 36px;
+  margin-top: 40px;
+}
+
+.rede-carrinho {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.carrinho-itens {
+  display: inline-block;
+}
+
+.menu {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 780px) {
+  .rede {
+    display: none;
+  }
+  .menu {
+    display: none;
+    flex-direction: row;
+    position: absolute;
+    top: 85px;
+    right: 10px;
+    background: #f7f7f7;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    width: 80px;
+    height: 200px;
+  }
+  #menu-id {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .menu.active {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .home {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+  }
+  .carrinho-menu {
+    display: flex;
+  }
+  .logo {
+    margin: 40px 0 0 40px;
+  }
+  .menu-toggle {
+    display: block;
+  }
+}
+
+@media (max-width: 330px) {
+  .rede {
+    display: none;
+  }
+  .menu {
+    display: block;
+    background: #ffffff;
+    border: none;
+    position: static;
+    width: 100%;
+  }
+  #menu-id {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu.active {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    position: static;
+  }
+  .carrinho-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .rede-carrinho {
+    display: block;
+    width: 100%;
+    justify-content: center;
+  }
+  .carrinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    margin: 20px 0 0 0;
+  }
+  .menu-toggle {
+    display: none;
+  }
+}
