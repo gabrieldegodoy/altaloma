@@ -2,10 +2,6 @@
   display: grid;
   margin: 0 auto;
   justify-content: center;
-  text-decoration: none;
-  color: #000000;
-  font-weight: bold;
-  font-size: 36px;
   margin-top: 40px;
 }
 
@@ -23,10 +19,13 @@
 
 .menu {
   text-transform: uppercase;
-  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+#menu-id {
+  display: flex;
   gap: 40px;
 }
 
@@ -51,8 +50,8 @@
     position: absolute;
     top: 85px;
     right: 10px;
-    background: #f7f7f7;
-    border: 1px solid #e0e0e0;
+    background: var(--cor-2);
+    border: 1px solid var(--cor-3);
     padding: 10px;
     width: 80px;
     height: 200px;
@@ -89,7 +88,7 @@
   }
   .menu {
     display: block;
-    background: #ffffff;
+    background: var(--cor-1);
     border: none;
     position: static;
     width: 100%;
