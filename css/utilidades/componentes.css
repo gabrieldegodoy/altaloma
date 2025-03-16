@@ -32,6 +32,13 @@
     font: 400 2.5vw/1.35 "roboto", sans-serif;
     border: .3vw solid var(--cor-4);
     border-radius: 4.5vw;
-    padding: 3vw 38vw;
+    padding: 3vw 36vw;
+  }
+  .botao.lista {
+    width: 100%;
+    font: 400 2.5vw/1.35 "roboto", sans-serif;
+    border: .3vw solid var(--cor-4);
+    border-radius: 15vw;
+    padding: 3vw 27vw;
   }
 }
