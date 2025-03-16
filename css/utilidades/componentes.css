@@ -12,10 +12,10 @@
   display: inline-block;
   text-transform: uppercase;
   color: var(--cor-4);
-  font: 450 1rem/1.35 "roboto", sans-serif;
-  border: 2px solid var(--cor-4);
-  border-radius: 30px;
-  padding: 15px 40px;
+  font: 400 1.7vw/1.35 "roboto", sans-serif;
+  border: .18vw solid var(--cor-4);
+  border-radius: 4vw;
+  padding: 1.5vw 5.5vw;
   max-width: max-content;
   cursor: pointer;
   text-align: center;
@@ -24,4 +24,14 @@
 .botao:hover {
   background-color: var(--cor-4);
   color: var(--cor-5);
+}
+
+@media (max-width: 740px) {
+  .botao.intro {
+    width: 100%;
+    font: 400 2.5vw/1.35 "roboto", sans-serif;
+    border: .3vw solid var(--cor-4);
+    border-radius: 4.5vw;
+    padding: 3vw 38vw;
+  }
 }
