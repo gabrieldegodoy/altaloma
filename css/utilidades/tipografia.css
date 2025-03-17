@@ -3,7 +3,7 @@
 }
 
 .font-1-l-b {
-  font: 900 8vw/1.35 "Playfair Display", serif;
+  font: 900 8vw/1 "Playfair Display", serif;
 }
 
 .font-1-m-b {
@@ -11,9 +11,21 @@
 }
 
 .font-2 {
+  font: 400 1.5vw/1.35 "roboto", sans-serif;
+}
+
+.font-2-rem {
   font: 400 1rem/1.35 "roboto", sans-serif;
 }
 
 .font-2-b {
   font: 500 1rem/1.35 "roboto", sans-serif;
+}
+
+.font-2-m {
+  font: 400 3vw/1.35 "roboto", sans-serif;
+}
+
+.font-2-s {
+  font: 400 2vw/1.35 "roboto", sans-serif;
 }
