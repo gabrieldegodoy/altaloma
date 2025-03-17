@@ -56,3 +56,41 @@
   background-color: var(--cor-6);
 }
 
+@media (max-width: 740px) {
+  .sobre-intro {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 80px 0 0 0;
+    gap: 20px;
+  }
+  .sobre-intro img {
+    height: 200px;
+    width: 90%;
+  }
+  .sobre-item p {
+    font: 400 4vw/1.35 "roboto", sans-serif;
+  }
+  .sobre-item a {
+    font: 400 3.5vw/1.35 "roboto", sans-serif;
+  }
+  .sobre-informacoes ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .sobre-informacoes li::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: -10px;
+    background-color: var(--cor-6);
+  }
+  .sobre-informacoes li h3 {
+    font: 400 4vw/1.35 "roboto", sans-serif;
+  }
+  .sobre-informacoes li p {
+    font: 400 2vw/1.35 "roboto", sans-serif;
+  }
+}
+
