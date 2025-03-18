@@ -35,59 +35,80 @@
     </div>
   </header>
 
-  <main class="introducao-bg">
-    <div class="container introducao">
+  <main>
+    <section id="introducao" class="container introducao">
       <div class="introducao-conteudo">
-        <h1 class="font-1-l-b cor-0"><span>Sabonete</span> <span>para todos</span> <span>(os corpos)</span></h1>
+        <h1 aria-labelledby="introducao" class="font-1-l-b cor-0"><span>Sabonete</span> <span>para todos</span> <span>(os corpos)</span></h1>
         <a class="botao intro" href="./loja.html">compre agora</a>
       </div>
 
       <img src="./img/fotos/sabonete-intro.jpg" width="100%" height="100%" alt="Sabonetes para todos (os corpos).">
       </div>
-    </div>
-  </main>
+    </section>
+    
+    <section id="sabonetes" class="container sabonetes-lista">
+      <h2 aria-labelledby="sabonetes" class="font-1-m-b">Confira nossos sabonetes favoritos</h2>
 
-  <article class="container sabonetes-lista">
-    <h2 class="font-1-m-b">Confira nossos sabonetes favoritos</h2>
-
-    <ul>
-      <li class="font-1-b"><img src="./img/fotos/eucalipto-e-citrinos-op.jpg" alt="Eucalipto e citrinos">Eucalipto e citrinos</li>
-      <li class="font-1-b"><img src="./img/fotos/salvia-e-cedro-op.jpg" alt="Sálvia e cedro">Sálvia e cedro</li>
-      <li class="font-1-b"><img src="./img/fotos/sandalo-e-rosa-op.jpg" alt="Sândalo e rosa">Sândalo e rosa</li>
-    </ul>
-
-    <a class="botao lista" href="./loja.html">confira todos os sabonetes</a>
-  </article>
-
-  <article class="container sobre-home">
-    <div class="sobre-intro">
-      <img src="./img/fotos/ingredientes-op.jpg" alt="Ingredientes">
-
-      <div class="sobre-item">
-        <h2 class="font-1-l-b cor-6">Feito para ser absorvido</h2>
-        <p class="font-2-m cor-6">Ingredientes tirados da natureza para beneficiar seu corpo.</p>
-        <a class="font-2-s cor-6" href="./sobre.html">Saiba mais</a>
-      </div>
-    </div>
-
-    <div class="sobre-informacoes">
-      <h2 class="font-1-m-b cor-6">Para todo o sempre</h2>
       <ul>
         <li>
-          <h3 class="font-2-m cor-6">Ingredientes puros</h3>
-          <p class="font-2 cor-6">Ingredientes extraídos da natureza, sem processo industrial, tudo feito com mãos humanas.</p>
+          <article>
+            <img src="./img/fotos/eucalipto-e-citrinos-op.jpg" alt="Eucalipto e citrinos">
+            <h3 class="font-1-b">Eucalipto e citrinos</h3>
+          </article>
         </li>
         <li>
-          <h3 class="font-2-m cor-6">Lotes pequenos</h3>
-          <p class="font-2 cor-6">Você pode optar por encomendar lotes grandes para o seu negócio, mas também vendemos em lotes menores.</p>
+          <article>
+            <img src="./img/fotos/salvia-e-cedro-op.jpg" alt="Sálvia e cedro">
+            <h3 class="font-1-b">Sálvia e cedro</h3>
+          </article>
         </li>
         <li>
-          <h3 class="font-2-m cor-6">Sem crueldade</h3>
-          <p class="font-2 cor-6">Produto livre de testes em animais e seres humanos.</p>
+          <article>
+            <img src="./img/fotos/sandalo-e-rosa-op.jpg" alt="Sândalo e rosa">
+            <h3  class="font-1-b">Sândalo e rosa</h3>
+          </article>
         </li>
       </ul>
-    </div>
-  </article>
+
+      <a class="botao lista" href="./loja.html">confira todos os sabonetes</a>
+    </section>
+
+    <section id="sobre" class="container sobre-home">
+      <div aria-labelledby="sobre" class="sobre-intro">
+        <img src="./img/fotos/ingredientes-op.jpg" alt="Ingredientes">
+
+        <div class="sobre-item">
+          <h2 class="font-1-l-b cor-6">Feito para ser absorvido</h2>
+          <p class="font-2-m cor-6">Ingredientes tirados da natureza para beneficiar seu corpo.</p>
+          <a class="font-2-s cor-6" href="./sobre.html">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="sobre-informacoes">
+        <h2 class="font-1-m-b cor-6">Para todo o sempre</h2>
+        <ul>
+          <li>
+            <article>
+              <h3 class="font-2-m cor-6">Ingredientes puros</h3>
+              <p class="font-2 cor-6">Ingredientes extraídos da natureza, sem processo industrial, tudo feito com mãos humanas.</p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h3 class="font-2-m cor-6">Lotes pequenos</h3>
+              <p class="font-2 cor-6">Você pode optar por encomendar lotes grandes para o seu negócio, mas também vendemos em lotes menores.</p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h3 class="font-2-m cor-6">Sem crueldade</h3>
+              <p class="font-2 cor-6">Produto livre de testes em animais e seres humanos.</p>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
 
   <script src="./js/script.js"></script>
 </body>
