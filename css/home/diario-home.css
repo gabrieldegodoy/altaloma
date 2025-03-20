@@ -53,3 +53,18 @@
   display: list-item;
 }
 
+@media (max-width: 740px) {
+  .diario-home {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .diario-conteudo {
+    margin-top: 20px;
+  }
+  .diario-conteudo p {
+    padding-bottom: 20px;
+    font: 400 4vw/1.35 "roboto", sans-serif;
+  }
+}
+
