@@ -1,8 +1,16 @@
 .footer {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 40px;
+  margin: 80px 20px 40px 20px;
 }
 
-.footer-redes a {
+.footer-redes img {
+  object-fit: cover;
+  padding-bottom: 10px;
+}
+
+.footer-redes a,
+.footer-abas a {
   text-decoration: underline;
 }
