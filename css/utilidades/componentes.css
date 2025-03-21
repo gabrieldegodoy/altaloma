@@ -26,6 +26,11 @@
   color: var(--cor-6);
 }
 
+.botao.botao-footer {
+  padding: 15px 50px;
+  white-space: nowrap;
+}
+
 @media (max-width: 740px) {
   .botao.intro {
     width: 100%;

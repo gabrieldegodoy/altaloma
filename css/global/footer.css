@@ -1,16 +1,42 @@
 .footer {
   display: grid;
-  grid-template-columns: 1fr 1fr auto;
+  grid-template-columns: 1fr 2fr auto;
   gap: 40px;
-  margin: 80px 20px 40px 20px;
+  margin: 80px 20px 60px 20px;
 }
 
 .footer-redes img {
   object-fit: cover;
   padding-bottom: 10px;
+  height: 300px;
+  width: 100%;
 }
 
 .footer-redes a,
 .footer-abas a {
   text-decoration: underline;
+}
+.footer-cadastro {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 20px 0px;
+}
+
+.form input {
+  padding: 20px;
+  border: none;
+  height: 40px;
+  min-width: 20vw;
+}
+
+.footer-abas ul {
+  display: grid;
+  gap: 20px;
 }
