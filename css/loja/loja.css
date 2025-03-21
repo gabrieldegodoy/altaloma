@@ -7,3 +7,18 @@
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
+
+.produtos a {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.produtos a h3 {
+  text-align: center;
+}
+
+.produtos a img {
+  width: 100%;
+  height: 100%;
+}
