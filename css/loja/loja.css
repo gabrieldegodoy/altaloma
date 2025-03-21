@@ -23,6 +23,12 @@
   height: 100%;
 }
 
+.personalizado {
+  background-color: var(--cor-4);
+  display: flex;
+  padding: 10px 20px;
+}
+
 @media (max-width: 740px) {
   .produtos ul {
     grid-template-columns: 1fr;
