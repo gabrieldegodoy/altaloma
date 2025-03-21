@@ -68,6 +68,9 @@
     white-space: nowrap;
     border-radius: 8vw;
   }
+  .botao.invertido {
+    font: 400 3.5vw/1.35 "roboto", sans-serif;
+  }
 }
 
 @media (max-width: 570px) {
@@ -81,5 +84,10 @@
     padding: 15px 35vw;
     white-space: nowrap;
     border-radius: 8vw;
+  }
+  .botao.invertido {
+    font: 400 5vw/1.35 "roboto", sans-serif;
+    border-radius: 8vw;
+    padding: 1.8vw 6vw;
   }
 }

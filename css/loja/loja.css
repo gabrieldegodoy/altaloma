@@ -52,4 +52,32 @@
   .produtos ul {
     grid-template-columns: 1fr;
   }
+  .personalizado {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    gap: 0;
+  }
+  .personalizado-conteudo {
+    grid-row: 2;
+    justify-content: center;
+  }
+  .personalizado-imagem img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .personalizado-conteudo h2 {
+    font: 900 12vw/1 "Playfair Display", serif;
+  }
+  .personalizado-conteudo p {
+    font: 400 4vw/1.35 "roboto", sans-serif;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .personalizado-conteudo p {
+    font: 400 5vw/1.35 "roboto", sans-serif;
+    padding-bottom: 20px;
+  }
 }
