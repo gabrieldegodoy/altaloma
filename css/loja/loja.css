@@ -1,0 +1,9 @@
+.produtos {
+  margin: 40px 20px;
+}
+
+.produtos ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
