@@ -1,0 +1,8 @@
+.footer {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+}
+
+.footer-redes a {
+  text-decoration: underline;
+}
