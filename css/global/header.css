@@ -1,8 +1,12 @@
+header {
+  padding-bottom: 40px;
+}
+
 .logo {
   display: grid;
   margin: 0 auto;
   justify-content: center;
-  margin-top: 40px;
+  padding-top: 40px;
 }
 
 .rede-carrinho {

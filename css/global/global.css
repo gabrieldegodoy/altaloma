@@ -24,6 +24,15 @@ body {
   background-color: var(--cor-5);
 }
 
+body.sobre header {
+  background-color: var(--cor-7);
+}
+
+body.sobre header a,
+body.sobre header p {
+  color: var(--cor-6);
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -35,4 +44,10 @@ button {
   padding: 0;
   border: none;
   background-color: var(--cor-5);
+}
+
+@media (max-width: 740px) {
+  body.sobre header #menu-id a {
+  color: var(--cor-0);
+  }
 }
