@@ -1,3 +1,25 @@
 .section-sobre {
   background-color: var(--cor-7);
 }
+
+.sobre-intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 20px;
+  padding: 0;
+  padding-bottom: 40px;
+  gap: 60px;
+}
+
+.sobre-intro-conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 20px;
+}
+
+.sobre-intro-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
