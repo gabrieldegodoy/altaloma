@@ -62,7 +62,7 @@
   padding: 40px 20px;
 }
 
-.sobre-inform-conteudo p {
+.sobre-inform-conteudo p.top {
   padding-bottom: 20px;
   width: 75%;
 }
@@ -70,7 +70,7 @@
 .sobre-inform-conteudo ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0 10px;
+  gap: 30px 10px;
 }
 
 .sobre-inform-conteudo article {
@@ -88,12 +88,38 @@
     flex-direction: column-reverse;
     gap: 10px;
   }
+  .sobre-intro-conteudo h2 {
+    font: 900 7vw/1.35 "Playfair Display", serif;
+  }
   .sobre-intro-conteudo p {
-    font: 400 3vw/1.35 "roboto", sans-serif;
+    font: 400 4vw/1.35 "roboto", sans-serif;
   }
   .sobre-intro-imagem img {
     width: 90%;
-    height: 250px;
+    height: 200px;
     object-position: top;
+  }
+  .sobre-inform-imagem {
+    height: 300px;
+  }
+  .sobre-inform-imagem h2 {
+    font: 900 9vw/1 "Playfair Display", serif;
+  }
+  .sobre-inform-conteudo ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px 20px;
+    margin: 0 40px;
+  }
+  .sobre-inform-conteudo p.top {
+    width: 100%;
+    font: 400 5vw/1.35 "roboto", sans-serif;
+    padding-bottom: 80px;
+  }
+  .sobre-inform-conteudo article h3 {
+    font: 400 4vw/1.35 "roboto", sans-serif;
+  }
+  .sobre-inform-conteudo article p {
+    font: 400 3vw/1.35 "roboto", sans-serif;
   }
 }
