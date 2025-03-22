@@ -28,8 +28,14 @@ body.sobre header {
   background-color: var(--cor-7);
 }
 
+body.diario header {
+  background-color: var(--cor-4);
+}
+
 body.sobre header a,
-body.sobre header p {
+body.sobre header p,
+body.diario header a,
+body.diario header p {
   color: var(--cor-6);
 }
 
