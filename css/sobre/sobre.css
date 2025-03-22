@@ -24,6 +24,64 @@
   object-fit: cover;
 }
 
+.sobre-inform {
+  display: flex;
+  flex-direction: column;
+}
+
+.sobre-inform-imagem {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  background: url('../../img/fotos/terra-background-op.jpg') no-repeat center center; 
+  background-size: cover;
+}
+
+.sobre-inform-imagem h2 {
+  text-align: center;
+  position: relative;
+}
+
+.sobre-inform-imagem h2 span {
+  display: block;
+}
+
+.sobre-inform-imagem h2::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background-color: var(--cor-6);
+  bottom: -80px;
+  left: 40%;
+}
+
+.sobre-inform-conteudo {
+  padding: 40px 20px;
+}
+
+.sobre-inform-conteudo p {
+  padding-bottom: 20px;
+  width: 75%;
+}
+
+.sobre-inform-conteudo ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0 10px;
+}
+
+.sobre-inform-conteudo article {
+  display: grid;
+  gap: 10px;
+}
+
+.sobre-inform-conteudo article p {
+  width: 100%;
+}
+
 @media (max-width: 740px) {
   .sobre-intro {
     display: flex;
