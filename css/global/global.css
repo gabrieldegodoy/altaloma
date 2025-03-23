@@ -32,10 +32,16 @@ body.diario header {
   background-color: var(--cor-4);
 }
 
+body.contato header {
+  background-color: var(--cor-7);
+}
+
 body.sobre header a,
 body.sobre header p,
 body.diario header a,
-body.diario header p {
+body.diario header p,
+body.contato header a,
+body.contato header p {
   color: var(--cor-6);
 }
 
