@@ -40,9 +40,49 @@
       <div class="contato-conteudo">
         <h2 class="font-1-m-b cor-6">Fale comigo</h2>
 
-        <form action="">
-          <label for=""></label>
-          <input type="text">
+        <form class="form-contato" action=".contato.html">
+          <div class="contato-nome">
+            <h3 class="font-2-b cor-6">Nome <span class="font-2-b cor-10">(obrigatório)</span></h3>
+            <div class="nome-container">
+              <div class="nome-form">
+                <label class="font-2-b cor-6" for="name">Nome</label>
+                <input type="text" id="name" name="nome">
+              </div>
+              <div class="nome-form">
+                <label class="font-2-b cor-6" for="lastname">Sobrenome</label>
+                <input type="text" id="lastname" name="sobrenome">
+              </div>
+            </div>
+          </div>
+
+          <div class="contato-email">
+            <label class="font-2-b cor-6" for="email">E-mail <span class="font-2-b cor-10">(obrigatório)</span></label>
+            <input type="email" id="email" name="email">
+          </div>
+
+          <div class="contato-mensagem">
+            <label class="font-2-b cor-6" for="mensagem">Mensagem <span class="font-2-b cor-10">(obrigatório)</span></label>
+            <textarea rows="6" id="mensagem" name="mensagem"></textarea>
+          </div>
+
+          <div class="form-interesse">
+            <h3 class="font-2-b cor-6">Tem interesse em</h3>
+
+            <div>
+              <input type="radio" name="pergunta" value="pergunta" id="pergunta">
+              <label class="font-2-b cor-6" for="pergunta">Pergunta ao fornecedor</label>
+            </div>
+            <div>
+              <input type="radio" name="colaboracao" value="colaboracao" id="colaboracao">
+              <label class="font-2-b cor-6" for="colaboracao">Colaboração personalizada</label>
+            </div>
+            <div>
+              <input type="radio" name="workshop" value="workshop" id="workshop">
+              <label class="font-2-b cor-6" for="workshop">Workshop</label>
+            </div>
+
+          </div>
+
           <button class="botao botao-contato" href="./cadastro.html">enviar</button>
         </form>
       </div>
