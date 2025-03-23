@@ -28,3 +28,31 @@ li:nth-child(even) img {
 li:nth-child(even) .diario-texto {
   grid-column: 1;
 }
+
+@media (max-width: 740px) {
+  .section-diario li a {
+    grid-template-columns: 1fr;
+  }
+  li:nth-child(even) img {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  li:nth-child(even) .diario-texto {
+    grid-column: auto;
+  }
+  .diario-texto {
+    display: grid;
+    padding: 30px 0;
+    gap: 10px;
+  }
+  .diario-texto span {
+    font: 400 2vw/1.35 "roboto", sans-serif;
+  }
+  .diario-texto h2 {
+    font: 900 8vw/1.35 "Playfair Display", serif;
+  }
+
+  .diario-texto p {
+    font: 400 3vw/1.35 "roboto", sans-serif;
+  }
+}
