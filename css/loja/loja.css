@@ -73,6 +73,11 @@
     font: 400 4vw/1.35 "roboto", sans-serif;
     padding-bottom: 40px;
   }
+  .produtos a h3 {
+    font: 900 5vw/1.35 "Playfair Display", serif;
+  }
+  .produtos a p {
+    font: 400 3vw/1.35 "roboto", sans-serif;
 }
 
 @media (max-width: 400px) {

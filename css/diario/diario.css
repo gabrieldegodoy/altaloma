@@ -20,12 +20,12 @@
   gap: 10px;
 }
 
-li:nth-child(even) img {
+.section-diario li:nth-child(even) img {
   grid-column: 2;
   grid-row: 1;
 }
 
-li:nth-child(even) .diario-texto {
+.section-diario li:nth-child(even) .diario-texto {
   grid-column: 1;
 }
 
@@ -33,11 +33,11 @@ li:nth-child(even) .diario-texto {
   .section-diario li a {
     grid-template-columns: 1fr;
   }
-  li:nth-child(even) img {
+  .section-diario li:nth-child(even) img {
     grid-column: auto;
     grid-row: auto;
   }
-  li:nth-child(even) .diario-texto {
+  .section-diario li:nth-child(even) .diario-texto {
     grid-column: auto;
   }
   .diario-texto {
