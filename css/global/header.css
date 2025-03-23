@@ -81,9 +81,12 @@ header {
   }
   .carrinho-menu {
     display: flex;
+    padding-right: 20px;
   }
   .logo {
-    margin: 40px 0 0 40px;
+    margin: 0 0 0 40px;
+    font: 900 5vw/1.35 "Playfair Display", serif !important;
+    margin-left: 20px;
   }
   .menu-toggle {
     display: block;

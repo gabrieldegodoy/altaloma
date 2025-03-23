@@ -84,6 +84,10 @@
   .botao.invertido {
     font: 400 3.5vw/1.35 "roboto", sans-serif;
   }
+  .botao.botao-contato {
+    font: 400 5vw/1.35 "roboto", sans-serif;
+    width: 30%;
+  }
 }
 
 @media (max-width: 570px) {

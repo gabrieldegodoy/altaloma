@@ -78,6 +78,7 @@
   }
   .produtos a p {
     font: 400 3vw/1.35 "roboto", sans-serif;
+  }
 }
 
 @media (max-width: 400px) {
