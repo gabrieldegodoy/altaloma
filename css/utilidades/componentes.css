@@ -54,6 +54,10 @@
   color: var(--cor-9);
 }
 
+.botao.botao-produto {
+  font: 400 2.5vw/1.35 "roboto", sans-serif;
+}
+
 @media (max-width: 740px) {
   .botao.intro {
     width: 100%;
