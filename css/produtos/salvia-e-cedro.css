@@ -24,24 +24,24 @@
   margin-top: 60px;
 }
 
-.form-salvia {
+.form-pagina-produto{
   display: grid;
   gap: 10px;
   margin: 20px 0 40px 0;
 }
 
-.form-salvia label {
+.form-pagina-produto label {
   text-transform: uppercase;
 }
 
-.form-salvia input {
+.form-pagina-produto input {
   background-color: var(--cor-5);
   border: 1px solid var(--cor-10);
   padding: 3vh;
   max-width: 16vw;
 }
 
-.form-salvia input:focus {
+.form-pagina-produto input:focus {
   border: 2px solid var(--cor-10);
   outline: none;
   box-shadow: 0 0 1px 1px var(--cor-0);
@@ -94,15 +94,15 @@
     grid-row: 6;
     font-size: 4vw;
   }
-  .form-salvia {
+  .form-pagina-produto {
     display: grid;
     gap: 10px;
     margin: 10px 0 10px 0;
   }
-  .form-salvia label {
+  .form-pagina-produto label {
     font-size: 4vw;
   }
-  .form-salvia input {
+  .form-pagina-produto input {
     background-color: var(--cor-5);
     border: 1px solid var(--cor-10);
     padding: 4vh;
