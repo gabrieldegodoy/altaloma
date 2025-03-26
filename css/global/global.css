@@ -32,6 +32,10 @@ body.diario header {
   background-color: var(--cor-4);
 }
 
+body.envio header {
+  background-color: var(--cor-4);
+}
+
 body.contato header {
   background-color: var(--cor-7);
 }
@@ -41,7 +45,9 @@ body.sobre header p,
 body.diario header a,
 body.diario header p,
 body.contato header a,
-body.contato header p {
+body.contato header p,
+body.envio header a,
+body.envio header p {
   color: var(--cor-6);
 }
 
