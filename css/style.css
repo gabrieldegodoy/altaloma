@@ -26,6 +26,7 @@
 /* CONTATO */
 @import url(./contato/contato.css);
 @import url(./contato/envio.css);
+@import url(./contato/revendedores.css);
 
 /* PRODUTOS */
 @import url(./produtos/produtos.css);
