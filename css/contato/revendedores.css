@@ -1,0 +1,33 @@
+.section-revendedores {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 60px 20px;
+  gap: 40px;
+}
+
+.revendedores-conteudo {
+  padding-bottom: 100px;
+}
+
+.revendedores-conteudo h2 {
+  white-space: nowrap;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.revendedores-conteudo ul {
+  display: grid;
+  gap: 20px;
+}
+
+.revendedores-conteudo li {
+  display: grid;
+  gap: 10px;
+}
+
+.revendedores-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
