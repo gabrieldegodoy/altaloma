@@ -22,3 +22,26 @@ dd {
   display: grid;
   gap: 20px;
 }
+
+@media (max-width: 740px) {
+  .section-envio {
+    grid-template-columns: 1fr;
+    padding: 0 20px 60px 20px;
+    gap: 20px;
+  }
+  .section-envio h2 {
+    font-size: 7vw;
+  }
+  .section-envio dl {
+    gap: 40px;
+  }
+  .dl-item {
+    gap: 10px;
+  }
+  .dl-item dt {
+    font-size: 4vw;
+  }
+  .dl-item dd {
+    font-size: 3vw;
+  }
+}
